@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+.container {
+  margin: 0 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.labels {
+  display: -ms-grid;
+  display: grid;
+  color: #c1c1c1;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column: auto / span 6;
+}
+
+.details img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.details p {
+  font-weight: 600;
+  font-size: 12px;
+  padding-right: 3px;
+}
+
+.details .id {
+  font-size: 12px;
+  color: #c4c4c4;
+  font-weight: 300;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid #d8d8d8;
+  border-radius: 25px;
+}
+
+.button div {
+  font-size: 30px;
+  color: #d8d8d8;
+}
+
+.button button {
+  border: none;
+  background: none;
+  font-weight: 600;
+}
+
+.button .bold {
+  color: #000;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.remove-button {
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    margin: 0 160px;
+  }
+  .details {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .details img {
+    width: 70px;
+    height: 70px;
+  }
+  .details div {
+    padding: 50px 30px;
+  }
+  .button {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=CartItems.module.css.map */

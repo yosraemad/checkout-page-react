@@ -1,0 +1,51 @@
+@import "../../../assets/scss\ variables/variables.scss";
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+
+  button {
+    border: none;
+    background: $accent-color;
+    width: 125.84px;
+    height: 49px;
+    border-radius: 25px;
+    margin-right: 11.2px;
+    text-transform: uppercase;
+    font-weight: $semi-bold-font;
+  }
+
+  .signUp {
+    border: 1px solid #d8d8d8;
+    background: none;
+  }
+
+  label {
+    margin-top: 38px;
+  }
+}
+
+.inputs {
+  margin-top: 23px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 22px;
+
+  input {
+    height: 49px;
+    border-radius: 30px;
+    text-indent: 28.6px;
+    border: 1px solid #d8d8d8;
+    font-size: 13px;
+  }
+}
+
+label {
+  font-weight: $semi-bold-font;
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 40vw;
+  }
+}

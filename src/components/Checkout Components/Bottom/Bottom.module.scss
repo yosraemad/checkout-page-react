@@ -1,0 +1,52 @@
+@import "../../../assets/scss\ variables/variables.scss";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 90px;
+  margin-bottom: 200px;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 72px;
+  font-weight: $semi-bold-font;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+
+  button {
+    border: none;
+    background: $accent-color;
+    width: 203px;
+    height: 49px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-weight: $semi-bold-font;
+    text-transform: uppercase;
+  }
+
+  .continue {
+    background: none;
+    border: 1px solid #d8d8d8;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    margin-top: 88px;
+  }
+  .buttons {
+    flex-direction: row;
+    button {
+      margin-bottom: 0;
+
+      margin-right: 20px;
+    }
+  }
+}

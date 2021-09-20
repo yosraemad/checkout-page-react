@@ -1,0 +1,61 @@
+@import "../../assets/scss variables/variables.scss";
+
+@font-face {
+  font-family: LogoFont;
+  src: url("../../assets/font/campton/Campton-Medium.otf");
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.name {
+  display: none;
+  font-family: LogoFont;
+}
+
+.categories {
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
+  font-weight: $semi-bold-font;
+}
+
+.icons {
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+}
+
+hr {
+  height: 1px;
+  background-color: #e5e5e5;
+  border: none;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    margin: 38px 160px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+  }
+  .name {
+    display: unset;
+    font-family: LogoFont;
+    font-size: larger;
+    span {
+      color: $accent-color;
+    }
+  }
+
+  .categories {
+    width: 250px;
+  }
+}

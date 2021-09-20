@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,qFAAI;ADEZ,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,MAAM,EAAE,IAAI;CAKb;;AAVD,AAOE,OAPK,CAOL,CAAC,CAAC;EACA,WAAW,ECDE,GAAG;CDEjB;;AAGH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EACjC,AAAA,OAAO,CAAC;IACN,MAAM,EAAE,UAAU;GACnB",
+    "sources": [
+        "PageHeader.module.scss",
+        "../../assets/scss variables/variables.scss"
+    ],
+    "names": [],
+    "file": "PageHeader.module.css"
+}

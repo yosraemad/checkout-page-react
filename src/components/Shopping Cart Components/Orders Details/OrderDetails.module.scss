@@ -1,0 +1,84 @@
+@import "../../../assets/scss\ variables/variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33vw;
+  font-weight: $semi-bold-font;
+}
+
+.promocode {
+  display: flex;
+  margin: 20px 0;
+  border: 1px solid #b5b5b5;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  padding: 20px 40px;
+  input {
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.cost {
+  margin-bottom: 20px;
+  font-weight: $light-font;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    font-weight: $semi-bold-font;
+  }
+}
+
+.checkout {
+  background-color: $accent-color;
+  border: none;
+  height: 49px;
+  width: 173.5px;
+  border-radius: 50px;
+  font-weight: $semi-bold-font;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 160px;
+  }
+
+  .back {
+    justify-content: start;
+    p {
+      margin-left: 24px;
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 110vw;
+  }
+
+  .promocode {
+    width: 18vw;
+  }
+
+  .cost {
+    margin: 0;
+    width: 10vw;
+  }
+}

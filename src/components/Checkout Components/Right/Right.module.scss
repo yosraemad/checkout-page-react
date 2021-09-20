@@ -1,0 +1,79 @@
+@import "../../../assets/scss\ variables/variables.scss";
+
+.container {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  label {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.item {
+  display: flex;
+  margin-bottom: 26px;
+  align-items: center;
+  justify-content: space-between;
+
+  div {
+    margin-bottom: 0;
+  }
+  img {
+    width: 51.54px;
+    height: 51.54px;
+    border-radius: 50%;
+    margin-right: 17px;
+  }
+
+  p {
+    font-weight: $semi-bold-font;
+  }
+
+  .id {
+    font-weight: $light-font;
+    color: #c4c4c4;
+  }
+}
+
+.cost {
+  display: flex;
+  width: 244px;
+  height: 49px;
+  align-self: center;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background: #f1f1f1;
+  border-radius: 40px;
+
+  p {
+    font-weight: $light-font;
+  }
+
+  .price {
+    font-weight: $semi-bold-font;
+  }
+}
+
+.free-shipping {
+  margin: 57px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  p {
+    width: 150px;
+    font-weight: $light-font;
+
+    span {
+      font-weight: $semi-bold-font;
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .free-shipping {
+    width: 10vw;
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CACvB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAClC,AAAA,QAAQ,CAAC;IACP,cAAc,EAAE,GAAG;IACnB,eAAe,EAAE,aAAa;IAC9B,MAAM,EAAE,OAAO;GAChB",
+    "sources": [
+        "CheckoutModule.module.scss"
+    ],
+    "names": [],
+    "file": "CheckoutModule.module.css"
+}

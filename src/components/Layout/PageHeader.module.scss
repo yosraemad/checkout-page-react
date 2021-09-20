@@ -1,0 +1,19 @@
+@import "../../assets/scss\ variables/variables.scss";
+
+.header {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+
+  p {
+    font-weight: $semi-bold-font;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    margin: 52px 160px;
+  }
+}

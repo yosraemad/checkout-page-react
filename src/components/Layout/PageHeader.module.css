@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px;
+}
+
+.header p {
+  font-weight: 600;
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    margin: 52px 160px;
+  }
+}
+/*# sourceMappingURL=PageHeader.module.css.map */
